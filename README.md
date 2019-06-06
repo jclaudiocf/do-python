@@ -39,13 +39,12 @@ $ pipenv shell
 $ pipenv install
 
 ### Criar a base de dados
+```
 $ python
-
 >> from restful import db
-
 >> db.create_all()
-
 >> exit()
+```
 
 ### Executar o servidor (http://localhst:5000)
 $ python restful.py
