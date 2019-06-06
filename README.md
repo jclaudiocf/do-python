@@ -11,10 +11,12 @@ DJANGO
 
 ### Ativar o ambiente viurtual
 $ source env/bin/activate
+
 $ pip install -r requirements.txt
 
 ### Criar base der dados
 $ python manage.py migrate
+
 $ python manage.py createsuperuser
 
 ### Executar o servidor (http://localhost:8000)
@@ -38,9 +40,12 @@ $ pipenv install
 
 ### Criar a base de dados
 $ python
+
 >> from restful import db
+
 >> db.create_all()
+
 >> exit()
 
 ### Executar o servidor (http://localhst:5000)
-python restful.py
+$ python restful.py
